@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
-/* eslint-disable react/prop-types */
+
 export default function BookInfo({ book }) {
   return (
     <div>
@@ -13,6 +13,11 @@ export default function BookInfo({ book }) {
   );
 }
 
-BookInfo.prototype = {
-  book: PropTypes.array.isRequired,
+BookInfo.propTypes = {
+  book: PropTypes.arrayOf(
+    PropTypes.shape({
+      category: PropTypes.string,
+      title: PropTypes.string,
+    }).isRequired,
+  ).isRequired,
 };
