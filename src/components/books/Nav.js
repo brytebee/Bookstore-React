@@ -1,7 +1,10 @@
 import {
   BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
-import Categories from '../categories/Category';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Categories from '../categories/category';
+import '../../App.css';
+import Book from './book';
 
 const Nav = () => (
   <Router>
@@ -15,10 +18,12 @@ const Nav = () => (
           <Link to="/categories">Categories</Link>
         </li>
       </ul>
+      <AccountCircleIcon className="icon" />
     </nav>
 
     <Routes>
       <Route path="/categories" element={<Categories />} />
+      <Route exact path="/" element={<Book />} />
     </Routes>
   </Router>
 );

@@ -1,4 +1,4 @@
-import Nav from './components/books/Nav';
+import Nav from './components/books/nav';
 import './App.css';
 
 function App() {

@@ -1,13 +1,15 @@
-const bookInfo = {
-  '001': {
+const bookInfo = [
+  {
+    id: '001',
     title: 'Rich Dad Poor Dad',
     category: 'Finance',
   },
-  '002': {
+  {
+    id: '002',
     title: 'Think & Grow Rich',
     category: 'Personal Development',
   },
-};
+];
 
 const generateChapter = () => Math.floor(Math.random() * 30);
 const generateProgress = () => Math.floor(Math.random() * 100) + 1;
