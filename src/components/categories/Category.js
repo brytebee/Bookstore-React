@@ -1,6 +1,6 @@
 const Categories = () => (
   <div>
-    <h1>Categories</h1>
+    <h2>Categories</h2>
     <p>Under construction</p>
   </div>
 );

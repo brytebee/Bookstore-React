@@ -20,7 +20,6 @@ const Page = () => (
           </li>
         </ul>
       </div>
-      <></>
       <AccountCircleIcon className="icon" />
     </nav>
 
