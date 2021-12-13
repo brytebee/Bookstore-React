@@ -9,15 +9,18 @@ import Book from './book';
 const Page = () => (
   <Router>
     <nav className="bluish white d-flex j-spa align-item-center">
-      <h1 id="logo">Bookstore CMS</h1>
-      <ul className="d-flex j-spa nav-list">
-        <li>
-          <Link to="/">Books</Link>
-        </li>
-        <li>
-          <Link to="/categories">Categories</Link>
-        </li>
-      </ul>
+      <div className="d-flex j-spa align-item-center">
+        <h1 id="logo">Bookstore CMS</h1>
+        <ul className="d-flex j-spa nav-list">
+          <li>
+            <Link to="/">Books</Link>
+          </li>
+          <li>
+            <Link to="/categories">Categories</Link>
+          </li>
+        </ul>
+      </div>
+      <></>
       <AccountCircleIcon className="icon" />
     </nav>
 
