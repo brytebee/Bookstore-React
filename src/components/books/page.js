@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Categories from '../categories/category';
+import Categories from '../categories/Category';
 import '../../App.css';
 import Book from './book';
 
