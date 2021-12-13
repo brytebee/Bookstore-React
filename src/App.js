@@ -1,10 +1,10 @@
-import Nav from './components/books/nav';
+import Page from './components/books/page';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Nav className="App-header" />
+      <Page className="App-header" />
     </div>
   );
 }

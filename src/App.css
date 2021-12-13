@@ -34,6 +34,38 @@
   }
 }
 
-.icon {
-  color: green;
+/* colors */
+.white {
+  color: #fff;
+}
+
+.bluish {
+  background-color: rgb(51, 57, 58);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-spa {
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  width: 30%;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.card {
+  background-color: #fafafa;
+  margin-bottom: 40px;
 }

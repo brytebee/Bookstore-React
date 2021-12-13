@@ -6,11 +6,11 @@ import Categories from '../categories/category';
 import '../../App.css';
 import Book from './book';
 
-const Nav = () => (
+const Page = () => (
   <Router>
-    <nav>
+    <nav className="bluish white d-flex j-spa align-item-center">
       <h1 id="logo">Bookstore CMS</h1>
-      <ul>
+      <ul className="d-flex j-spa nav-list">
         <li>
           <Link to="/">Books</Link>
         </li>
@@ -28,4 +28,4 @@ const Nav = () => (
   </Router>
 );
 
-export default Nav;
+export default Page;

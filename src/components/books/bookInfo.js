@@ -5,16 +5,22 @@ export default function BookInfo({ book }) {
   return (
     <div>
       <h5>{book.category}</h5>
-      <h5>{book.title}</h5>
-      <Button variant="contained">Comment</Button>
-      <Button variant="contained">Remove</Button>
-      <Button variant="contained">Edit</Button>
+      <h2>{book.title}</h2>
+      <Button variant="contained" color="primary">
+        Comment
+      </Button>
+      <Button variant="contained" color="primary">
+        Remove
+      </Button>
+      <Button variant="contained" color="primary">
+        Edit
+      </Button>
     </div>
   );
 }
 
 BookInfo.propTypes = {
-  book: PropTypes.arrayOf(
+  book: PropTypes.objectOf(
     PropTypes.shape({
       category: PropTypes.string,
       title: PropTypes.string,
