@@ -8,11 +8,7 @@ const Chapter = () => (
       Chapter:
       {generateChapter()}
     </h2>
-    <input
-      className="bg-blue white update-btn"
-      type="submit"
-      value="Update Chapter"
-    />
+    <input className="bg-blue white btn" type="submit" value="Update Chapter" />
   </div>
 );
 
