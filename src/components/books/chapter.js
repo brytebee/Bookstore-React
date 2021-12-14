@@ -1,15 +1,18 @@
-import { Button } from '@mui/material';
 import { generateChapter } from '../../dommyData';
 
 const Chapter = () => (
   <div>
-    <p>Current Chapter</p>
+    <p className="grey">Current Chapter</p>
     <h2>
       {' '}
       Chapter:
       {generateChapter()}
     </h2>
-    <Button variant="contained">Update Chapter</Button>
+    <input
+      className="bg-blue white update-btn"
+      type="submit"
+      value="Update Chapter"
+    />
   </div>
 );
 
