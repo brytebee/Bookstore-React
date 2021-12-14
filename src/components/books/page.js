@@ -11,7 +11,7 @@ const Page = () => (
     <nav className="bg-white blue d-flex j-spa align-item-center">
       <div className="d-flex j-spa align-item-center">
         <h1 id="logo">Bookstore CMS</h1>
-        <ul className="d-flex j-spa nav-list">
+        <ul className="d-flex j-spa nav-list grey">
           <li>
             <Link to="/">Books</Link>
           </li>

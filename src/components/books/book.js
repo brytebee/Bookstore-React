@@ -3,7 +3,7 @@ import Form from './form';
 
 export default function Book() {
   return (
-    <div>
+    <div className="pages">
       <BookCard />
       <h3>Add a book</h3>
       <Form />
