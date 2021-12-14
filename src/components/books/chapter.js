@@ -1,9 +1,9 @@
 import { generateChapter } from '../../dommyData';
 
 const Chapter = () => (
-  <div>
-    <p className="grey tiny uppercase">Current Chapter</p>
-    <p>
+  <div className="chapter">
+    <p className="grey tiny uppercase margin-bottom-0">Current Chapter</p>
+    <p className="margin-top-0">
       {' '}
       Chapter:
       {generateChapter()}

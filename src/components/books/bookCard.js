@@ -17,7 +17,10 @@ export default function BookCard() {
   return (
     <div>
       {allBooks.map((book) => (
-        <div key={book.item_id} className="card d-flex j-spa align-item-center">
+        <div
+          key={book.item_id}
+          className="card d-flex margin j-s-btw align-item-center bg-white"
+        >
           <BookInfo book={book} />
           <Bookprogress progress={generateProgress()} />
           <Chapter />

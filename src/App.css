@@ -66,14 +66,17 @@ a:-webkit-any-link {
 /* Element styles */
 .page {
   border-bottom: 1px solid #8f8f8f;
+  padding: 0 15%;
 }
 
-.isActive {
+.weigthy {
   font-weight: 600;
 }
 
 .card {
-  margin-bottom: 40px;
+  border: 1px solid #ccc6c6;
+  padding: 1% 10% 2% 2%;
+  box-shadow: 2px 3px 2px #8f8f8f;
 }
 
 .info-btn {
@@ -99,9 +102,67 @@ a:-webkit-any-link {
 
 /* Sizes */
 .big {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 .tiny {
   font-size: 0.7rem;
+}
+
+.mid {
+  font-size: 1.375rem;
+}
+
+/* Spacing */
+.margin {
+  margin: 1rem 15%;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.cat {
+  text-align: center;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.form {
+  margin-top: 5%;
+  border-top: 1px solid #ccc6c6;
+}
+
+.form-input {
+  line-height: 1.5;
+}
+
+.cat-input {
+  justify-content: flex-end;
+  padding-left: 2rem;
+}
+
+.left-cat {
+  margin-right: 15%;
+}
+
+.circle {
+  margin-top: 20%;
+  margin-right: 8%;
+}
+
+.prog-percent {
+  margin-top: 8%;
+}
+
+.chapter {
+  border-left: 1px solid #ccc6c6;
+  padding-left: 20%;
 }
