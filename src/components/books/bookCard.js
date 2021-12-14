@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
 import { generateProgress } from '../../dommyData';
 import BookInfo from './bookInfo';
 import Chapter from './chapter';
@@ -25,3 +26,7 @@ export default function BookCard() {
     </div>
   );
 }
+
+BookInfo.propTypes = {
+  'book.item_id': PropTypes.string,
+};
