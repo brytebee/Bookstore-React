@@ -5,7 +5,6 @@ export default function Book() {
   return (
     <div>
       <BookCard />
-      <h3>Add a book</h3>
       <Form />
     </div>
   );

@@ -4,21 +4,21 @@ import { CircularProgress } from '@material-ui/core';
 
 const Bookprogress = ({ progress }) => (
   <article>
-    <span className="book-progress d-flex a-center j-center">
+    <span className="montserrat d-flex blue">
       <CircularProgress
         color="inherit"
         size={75}
-        thickness={2}
-        className="my-blue"
+        thickness={3}
         variant="determinate"
         value={progress}
+        className="circle"
       />
-      <div className="percent d-flex f-col a-center j-center">
-        <h3>
+      <div className="black prog-percent">
+        <p className="big">
           {progress}
           %
-        </h3>
-        <p>completed</p>
+        </p>
+        <p className="grey tiny">Completed</p>
       </div>
     </span>
   </article>
