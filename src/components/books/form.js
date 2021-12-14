@@ -24,7 +24,7 @@ export default function Form() {
 
   return (
     <div>
-      <h3 className="form-title grey montserrat">Add a book</h3>
+      <h3 className="form-title grey montserrat uppercase">Add a book</h3>
       <form className="d-flex j-spa">
         <input
           type="text"
@@ -51,7 +51,7 @@ export default function Form() {
           <option value="Personal Development">Personal Development</option>
         </select>
         <input
-          className="bg-blue white btn add"
+          className="bg-blue white btn uppercase add"
           type="submit"
           value="Add book"
           onClick={submitBookToStore}

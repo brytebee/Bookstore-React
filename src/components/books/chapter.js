@@ -2,13 +2,17 @@ import { generateChapter } from '../../dommyData';
 
 const Chapter = () => (
   <div>
-    <p className="grey">Current Chapter</p>
+    <p className="grey tiny uppercase">Current Chapter</p>
     <p>
       {' '}
       Chapter:
       {generateChapter()}
     </p>
-    <input className="bg-blue white btn" type="submit" value="Update Chapter" />
+    <input
+      className="bg-blue white btn uppercase"
+      type="submit"
+      value="Update Chapter"
+    />
   </div>
 );
 

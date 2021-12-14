@@ -12,14 +12,14 @@ export default function BookInfo({ book }) {
       <h5 className="grey">{book.category}</h5>
       <h2 className="montserrat">{book.title}</h2>
       <div>
-        <input className="info-btn bluish" type="submit" value="Comment" />
+        <input className="info-btn bluish tiny" type="submit" value="Comment" />
         <input
-          className="info-btn bluish"
+          className="info-btn bluish tiny"
           type="submit"
           value="Remove"
           onClick={() => deleteHandler(book.item_id)}
         />
-        <input className="info-btn bluish" type="submit" value="Edit" />
+        <input className="info-btn bluish tiny" type="submit" value="Edit" />
       </div>
     </div>
   );

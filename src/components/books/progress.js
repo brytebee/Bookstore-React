@@ -17,7 +17,7 @@ const Bookprogress = ({ progress }) => (
           {progress}
           %
         </p>
-        <p className="grey">Completed</p>
+        <p className="grey tiny">Completed</p>
       </div>
     </span>
   </article>
