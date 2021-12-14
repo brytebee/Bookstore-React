@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { Button } from '@material-ui/core';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../../redux/books/book';
+import { addNewBook } from '../../redux/books/book';
 
 export default function Form() {
   const [title, setTitle] = useState('');
@@ -17,7 +17,7 @@ export default function Form() {
       category,
     };
     if (title !== '' && category !== 'Choose category') {
-      dispatch(addBook(newBook));
+      dispatch(addNewBook(newBook));
       setTitle('');
       setCategory('Choose category');
     }
