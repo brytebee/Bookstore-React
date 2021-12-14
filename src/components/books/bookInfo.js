@@ -1,12 +1,12 @@
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
-import { removeBook } from '../../redux/books/book';
+import { removeBookFromStore } from '../../redux/books/book';
 
 export default function BookInfo({ book }) {
   const dispatch = useDispatch();
-  const deleteHandler = () => {
-    dispatch(removeBook(book.id));
+  const deleteHandler = (id) => {
+    dispatch(removeBookFromStore(id));
   };
   return (
     <div>
@@ -15,7 +15,11 @@ export default function BookInfo({ book }) {
       <Button variant="contained" color="primary">
         Comment
       </Button>
-      <Button variant="contained" onClick={deleteHandler} color="primary">
+      <Button
+        variant="contained"
+        onClick={() => deleteHandler(book.item_id)}
+        color="primary"
+      >
         Remove
       </Button>
       <Button variant="contained" color="primary">

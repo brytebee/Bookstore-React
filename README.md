@@ -5,8 +5,7 @@
 This project is used to display a list of books. Users can add/remove books from the list. It is built with ReactJS and Redux. It implements Routing, and Components concepts
 
 ## Screenshot
-
-![image](https://user-images.githubusercontent.com/27709832/145400205-9ae8e0a2-5f45-4073-b67b-3266777873a7.png)
+![image](https://user-images.githubusercontent.com/27709832/145990121-4519acc2-acb9-40e3-b782-19939a58710b.png)
 `Current screenshot`
 
 ## Live Demo
