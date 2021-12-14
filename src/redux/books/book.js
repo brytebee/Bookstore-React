@@ -1,6 +1,6 @@
-const ADD_BOOK = 'bookStore/books/ADD_BOOK';
-const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
-const GET_BOOK = 'bookStore/books/GET_BOOK';
+const ADD_BOOK = 'bookStore-react/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookStore-react/books/REMOVE_BOOK';
+const GET_BOOK = 'bookStore-react/books/GET_BOOK';
 const baseUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/0MxoaYAlLWZ6BQnrAqvb/books/';
 
 const initialState = [];
