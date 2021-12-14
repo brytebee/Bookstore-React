@@ -6,10 +6,9 @@ const Bookprogress = ({ progress }) => (
   <article>
     <span className="book-progress d-flex a-center j-center">
       <CircularProgress
-        color="inherit"
         size={75}
         thickness={2}
-        className="my-blue"
+        className="blue"
         variant="determinate"
         value={progress}
       />

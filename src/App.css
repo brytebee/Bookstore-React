@@ -1,6 +1,7 @@
 body {
   background-color: #fafafa;
 }
+
 .App {
   text-align: left;
 }
@@ -19,6 +20,10 @@ font-family: 'Montserrat', sans-serif; */
 
 .blue {
   color: #0290ff;
+}
+
+.bluish {
+  color: #4c8cc3;
 }
 
 .bg-blue {
@@ -57,4 +62,15 @@ a:-webkit-any-link {
 
 .card {
   margin-bottom: 40px;
+}
+
+.card-btn {
+  text-transform: capitalize;
+}
+
+.info-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 8px 10px 0 0;
 }
