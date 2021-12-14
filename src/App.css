@@ -64,6 +64,10 @@ a:-webkit-any-link {
   align-items: center;
 }
 
+.page {
+  border-bottom: 1px solid #8f8f8f;
+}
+
 .card {
   margin-bottom: 40px;
 }
