@@ -5,6 +5,7 @@ import BookInfo from './bookInfo';
 import Chapter from './chapter';
 import Bookprogress from './progress';
 import '../../App.css';
+import { getBooks } from '../../redux/books/book';
 
 export default function BookCard() {
   const dispatch = useDispatch();
@@ -15,7 +16,7 @@ export default function BookCard() {
   return (
     <div>
       {allBooks.map((book) => (
-        <div key={book.id} className="card d-flex j-spa align-item-center">
+        <div key={book.item_id} className="card d-flex j-spa align-item-center">
           <BookInfo book={book} />
           <Bookprogress progress={generateProgress()} />
           <Chapter />

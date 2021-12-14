@@ -12,7 +12,7 @@ export default function Form() {
   const submitBookToStore = (e) => {
     e.preventDefault();
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title,
       category,
     };
