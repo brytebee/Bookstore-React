@@ -1,9 +1,11 @@
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Button } from '@material-ui/core';
 import { v4 as uuidv4 } from 'uuid';
+import { addBook } from '../../redux/books/book';
 
 export default function Form() {
   const [title, setTitle] = useState('');
-  const [author, setAuthor] = useState('');
   const [category, setCategory] = useState('');
   const dispatch = useDispatch();
 
@@ -12,12 +14,10 @@ export default function Form() {
     const newBook = {
       id: uuidv4(),
       title,
-      author,
       category,
     };
     dispatch(addBook(newBook));
     setTitle('');
-    setAuthor('');
     setCategory('Choose category');
   };
 
