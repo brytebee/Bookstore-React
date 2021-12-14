@@ -16,9 +16,11 @@ export default function Form() {
       title,
       category,
     };
-    dispatch(addBook(newBook));
-    setTitle('');
-    setCategory('Choose category');
+    if (title !== '' && category !== 'Choose category') {
+      dispatch(addBook(newBook));
+      setTitle('');
+      setCategory('Choose category');
+    }
   };
 
   return (
@@ -27,13 +29,15 @@ export default function Form() {
         type="text"
         className="title form-input"
         placeholder="Book title"
-        onClick={(e) => setTitle(e.target.value)}
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
         required
       />
       <select
         name="category"
         className="form-input"
-        onClick={(e) => setCategory(e.target.value)}
+        value={category}
+        onChange={(e) => setCategory(e.target.value)}
         required
       >
         <option defaultValue="Choose category">Choose category</option>
@@ -49,7 +53,8 @@ export default function Form() {
         variant="contained"
         className="submit"
         color="primary"
-        onSubmit={submitBookToStore}
+        onClick={submitBookToStore}
+        type="button"
       >
         Add book
       </Button>
