@@ -1,5 +1,8 @@
+body {
+  background-color: #fafafa;
+}
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 /* font-family: 'Roboto Slab', serif;
@@ -12,10 +15,6 @@ font-family: 'Montserrat', sans-serif; */
 
 .bg-white {
   background-color: #fff;
-}
-
-.bg-whitish {
-  background-color: #fafafa;
 }
 
 .blue {
