@@ -10,7 +10,7 @@ export default function BookInfo({ book }) {
   return (
     <div>
       <h5 className="grey">{book.category}</h5>
-      <h2>{book.title}</h2>
+      <h2 className="montserrat">{book.title}</h2>
       <div>
         <input className="info-btn bluish" type="submit" value="Comment" />
         <input

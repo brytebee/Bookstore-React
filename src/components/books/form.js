@@ -24,7 +24,7 @@ export default function Form() {
 
   return (
     <div>
-      <h3 className="form-title grey">Add a book</h3>
+      <h3 className="form-title grey montserrat">Add a book</h3>
       <form className="d-flex j-spa">
         <input
           type="text"

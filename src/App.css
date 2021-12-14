@@ -1,13 +1,17 @@
 body {
   background-color: #fafafa;
+  font-family: 'Roboto Slab', serif;
 }
 
-.App {
-  text-align: left;
+li {
+  list-style: none;
+  width: 30%;
 }
 
-/* font-family: 'Roboto Slab', serif;
-font-family: 'Montserrat', sans-serif; */
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* colors */
 .black {
@@ -38,6 +42,7 @@ font-family: 'Montserrat', sans-serif; */
   color: #8f8f8f;
 }
 
+/* Classes */
 .d-flex {
   display: flex;
 }
@@ -50,30 +55,25 @@ font-family: 'Montserrat', sans-serif; */
   justify-content: space-between;
 }
 
-li {
-  list-style: none;
-  width: 30%;
-}
-
-a:-webkit-any-link {
-  text-decoration: none;
-  color: inherit;
-}
-
 .align-item-center {
   align-items: center;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Element styles */
 .page {
   border-bottom: 1px solid #8f8f8f;
 }
 
-.card {
-  margin-bottom: 40px;
+.isActive {
+  font-weight: 600;
 }
 
-.card-btn {
-  text-transform: capitalize;
+.card {
+  margin-bottom: 40px;
 }
 
 .info-btn {
