@@ -21,6 +21,34 @@ export const getBook = (allBooks) => ({
   payload: allBooks,
 });
 
+export const addNewBook = (newBook) => async (dispatch) => {
+  await fetch(baseUrl, {
+    method: 'POST',
+    body: JSON.stringify(newBook),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
+  dispatch(addBook(newBook));
+};
+
+export const getBooks = () => async (dispatch) => {
+  const books = await fetch(baseUrl);
+  const bookData = await books.json();
+  dispatch(getBook(bookData));
+};
+
+export const removeBookFromStore = (id) => async (dispatch) => {
+  await fetch(`${baseUrl}${id}`, {
+    method: 'DELETE',
+    body: JSON.stringify({ item_id: id }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
+  dispatch(removeBook(id));
+};
+
 const bookReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_BOOK:
