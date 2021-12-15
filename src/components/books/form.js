@@ -28,13 +28,13 @@ export default function Form() {
       <form className="d-flex j-s-btw">
         <input
           type="text"
-          className="form-input width50 montserrat"
+          className="form-input b-radius width50 montserrat"
           placeholder="Book title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
         />
-        <div className="cat-input d-flex width50">
+        <div className="cat-input b-radius d-flex width50">
           <select
             name="category"
             className="left-cat form-input montserrat width50"
@@ -52,7 +52,7 @@ export default function Form() {
             <option value="Personal Development">Personal Development</option>
           </select>
           <input
-            className="bg-blue white btn uppercase add"
+            className="bg-blue white btn uppercase add b-radius"
             type="submit"
             value="Add book"
             onClick={submitBookToStore}
