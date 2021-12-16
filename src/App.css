@@ -1,5 +1,5 @@
 body {
-  background-color: #fafafa;
+  background-color: #c3cea8;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -59,6 +59,10 @@ a:-webkit-any-link {
   align-items: center;
 }
 
+.b-radius {
+  border-radius: 5px;
+}
+
 .montserrat {
   font-family: 'Montserrat', sans-serif;
 }
@@ -88,7 +92,6 @@ a:-webkit-any-link {
 
 .btn {
   border: none;
-  border-radius: 5px;
   padding: 10px 30px;
 }
 

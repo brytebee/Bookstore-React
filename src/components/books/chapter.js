@@ -9,8 +9,9 @@ const Chapter = () => (
       {generateChapter()}
     </p>
     <input
-      className="bg-blue white btn uppercase"
+      className="bg-blue b-radius white btn uppercase"
       type="submit"
+      onClick={generateChapter}
       value="Update Chapter"
     />
   </div>
