@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bookstore-React/static/css/main.a98cee08.chunk.css",
+    "main.js": "/Bookstore-React/static/js/main.7d8923fa.chunk.js",
+    "main.js.map": "/Bookstore-React/static/js/main.7d8923fa.chunk.js.map",
+    "runtime-main.js": "/Bookstore-React/static/js/runtime-main.32f341de.js",
+    "runtime-main.js.map": "/Bookstore-React/static/js/runtime-main.32f341de.js.map",
+    "static/js/2.a1d5be06.chunk.js": "/Bookstore-React/static/js/2.a1d5be06.chunk.js",
+    "static/js/2.a1d5be06.chunk.js.map": "/Bookstore-React/static/js/2.a1d5be06.chunk.js.map",
+    "static/js/3.62fe1673.chunk.js": "/Bookstore-React/static/js/3.62fe1673.chunk.js",
+    "static/js/3.62fe1673.chunk.js.map": "/Bookstore-React/static/js/3.62fe1673.chunk.js.map",
+    "index.html": "/Bookstore-React/index.html",
+    "static/css/main.a98cee08.chunk.css.map": "/Bookstore-React/static/css/main.a98cee08.chunk.css.map",
+    "static/js/2.a1d5be06.chunk.js.LICENSE.txt": "/Bookstore-React/static/js/2.a1d5be06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32f341de.js",
+    "static/js/2.a1d5be06.chunk.js",
+    "static/css/main.a98cee08.chunk.css",
+    "static/js/main.7d8923fa.chunk.js"
+  ]
+}
