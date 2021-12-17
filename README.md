@@ -11,7 +11,7 @@ This project is used to display a list of books. Users can add/remove books from
 
 ## Live Demo
 
-View the [Coming Soon...](https://brytebee.github.io/Bookstore-React) here ☕
+View the [Live Demo](https://brytebee.github.io/Bookstore-React) here ☕
 
 ## Built With
 
